@@ -37,6 +37,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="photoView" destination="bzt-hS-Lgb" id="drY-c6-jKO"/>
+                                            <segue destination="hdz-fE-KQd" kind="show" id="H3l-OI-kpr"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -67,13 +68,22 @@
                     <view key="view" contentMode="scaleToFill" id="wVu-Do-BdK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="udw-k4-1kd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="311"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jjv-Zz-3ag"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="udw-k4-1kd" id="9s8-Wd-Lpk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ICq-XU-hVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1681" y="14"/>
+            <point key="canvasLocation" x="1680.8" y="13.943028485757123"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tEf-Xs-99p">
