@@ -2,7 +2,7 @@
 
 **Tumbs** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -36,7 +36,7 @@ GIF created with RecordIt
 
 ## Notes
 
-Constraints
+Constraints gave me an issue while adjusting the height of the image.
 
 ## License
 
