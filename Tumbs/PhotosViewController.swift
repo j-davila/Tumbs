@@ -34,6 +34,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
                 let responseDictionary = dataDictionary["response"] as! [String: Any]
                 
                 self.posts = responseDictionary["posts"] as! [[String: Any]]
+                self.tableView.rowHeight = 200
                 self.tableView.reloadData()
             }
         }
@@ -50,8 +51,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         
         let post = posts[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "PhotoCell", for: indexPath) as! PhotoCell
-        
-        cell.textLabel?.text = "This is row\(indexPath.row)"
         
         if let photos = post["photos"] as? [[String: Any]] {
             let photo = photos[0]
