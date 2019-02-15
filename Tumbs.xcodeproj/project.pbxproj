@@ -18,6 +18,7 @@
 		BC9587E02212ABE700D06C42 /* TumbsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9587DF2212ABE700D06C42 /* TumbsUITests.swift */; };
 		BC9587EE2212AD3100D06C42 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9587ED2212AD3100D06C42 /* PhotosViewController.swift */; };
 		BC9587F02212B41300D06C42 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9587EF2212B41300D06C42 /* PhotoCell.swift */; };
+		F1ACE270221652C1009DE89C /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACE26F221652C1009DE89C /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		BC9587ED2212AD3100D06C42 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		BC9587EF2212B41300D06C42 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		DB831BB3A9EFB7079ACCEF31 /* Pods-TumbsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumbsUITests.release.xcconfig"; path = "Target Support Files/Pods-TumbsUITests/Pods-TumbsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1ACE26F221652C1009DE89C /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		F574D16E9AD0675230A00532 /* Pods-TumbsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumbsTests.debug.xcconfig"; path = "Target Support Files/Pods-TumbsTests/Pods-TumbsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9A9813E1008E176A4382898 /* Pods_Tumbs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA347D0C4A5484E87A0E75DD /* Pods-TumbsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumbsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TumbsUITests/Pods-TumbsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				FA347D0C4A5484E87A0E75DD /* Pods-TumbsUITests.debug.xcconfig */,
 				DB831BB3A9EFB7079ACCEF31 /* Pods-TumbsUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 				BC9587BF2212ABE600D06C42 /* AppDelegate.swift */,
 				BC9587ED2212AD3100D06C42 /* PhotosViewController.swift */,
 				BC9587C32212ABE600D06C42 /* Main.storyboard */,
+				F1ACE26F221652C1009DE89C /* PhotoDetailsViewController.swift */,
 				BC9587C62212ABE700D06C42 /* Assets.xcassets */,
 				BC9587C82212ABE700D06C42 /* LaunchScreen.storyboard */,
 				BC9587CB2212ABE700D06C42 /* Info.plist */,
@@ -397,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1ACE270221652C1009DE89C /* PhotoDetailsViewController.swift in Sources */,
 				BC9587C02212ABE600D06C42 /* AppDelegate.swift in Sources */,
 				BC9587F02212B41300D06C42 /* PhotoCell.swift in Sources */,
 				BC9587EE2212AD3100D06C42 /* PhotosViewController.swift in Sources */,
